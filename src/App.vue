@@ -5,7 +5,7 @@
       <router-link to="/about">About</router-link>
     </div>
     <router-view/> -->
-    hello11422
+    hello1142312
   </div>
 </template>
 
