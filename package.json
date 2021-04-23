@@ -4,7 +4,13 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "commit": "git cz"
+  },
+  "config":{
+    "commitizen":{
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -17,6 +23,8 @@
     "@vue/cli-plugin-router": "~4.4.0",
     "@vue/cli-plugin-vuex": "~4.4.0",
     "@vue/cli-service": "~4.4.0",
+    "commitizen": "^4.2.3",
+    "cz-conventional-changelog": "^3.3.0",
     "gitmoji-cli": "^3.4.0",
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2",
