@@ -24,7 +24,7 @@
     "@vue/cli-plugin-babel": "~4.4.0",
     "@vue/cli-plugin-router": "~4.4.0",
     "@vue/cli-plugin-vuex": "~4.4.0",
-    "@vue/cli-service": "~4.4.0",
+    "@vue/cli-service": "~5.0.8",
     "commitizen": "^4.2.3",
     "commitlint-config-gitmoji": "^2.2.5",
     "cz-conventional-changelog": "^3.3.0",
